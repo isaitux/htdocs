@@ -1,0 +1,32 @@
+#Vagrant
+.vagrant/
+
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
+*.iml
+## Directory-based project format:
+.idea/
+
+## File-based project format:
+*.ipr
+*.iws
+
+#Exclude composer vendor folders
+vendor
+composer.lock
+
+# Uploaded Images
+thumbnails
+
+# SASS
+.sass-cache
+
+#skins
+adminlte
+font-awesome
+ionicons
+
+# Configuration files with passwords
+src/Include/Config.php
+src/mysql/database_setup_and_install.sh
+
+target
